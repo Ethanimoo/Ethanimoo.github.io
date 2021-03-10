@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-markdown-images": "^1.0.4"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-one-click-copy": "^1.0.2"
+  }
+}
