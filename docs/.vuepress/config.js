@@ -45,7 +45,7 @@ module.exports = {
                   link: '/interview/'
                 },
                 {
-                  text: 'Blog',
+                  text: 'Blogs',
                   link: '/blog/'
                 }
         ],
