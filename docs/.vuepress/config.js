@@ -32,14 +32,14 @@ module.exports = {
                       { text: '网站', link: '/website/' }
                   ]
                 },
-                {
-                  text: '最近阅读',
-                  link: '/diary/read'
-                },
-                {
-                  text: '文章',
-                  link: '/article/'
-                },
+                // {
+                //   text: '最近阅读',
+                //   link: '/diary/read'
+                // },
+                // {
+                //   text: '文章',
+                //   link: '/article/'
+                // },
                 {
                   text: '面试',
                   link: '/interview/'
