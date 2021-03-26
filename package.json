@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "get-markdown-images": "^1.0.4"
+    "get-markdown-images": "^1.0.4",
+    "vuepress-theme-yuu": "^3.0.1"
   },
   "devDependencies": {
     "vuepress": "^1.8.0",

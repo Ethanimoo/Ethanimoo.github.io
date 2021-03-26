@@ -12,8 +12,8 @@
   :event="''"
   @click.native.prevent="routeOrLogin({ name: 'my-favorites' })"
 >
-  Favorites</router-link
->
+  Favorites
+</router-link>
 ```
 
 ## Dynamic Components
