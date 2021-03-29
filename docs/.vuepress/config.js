@@ -1,9 +1,8 @@
 const utils = require("./utils");
 
 module.exports = {
-  theme: 'yuu',
+  theme: "yuu",
   title: "NewBee Doc",
-  description: "Ethan的前端记录",
   head: [
     [
       "link",
@@ -21,15 +20,15 @@ module.exports = {
         copySelector: [
           'div[class*="language-"] pre',
           'div[class*="aside-code"] aside',
-        ], 
-        copyMessage: "复制成功", 
-        duration: 100, 
-        showInMobile: false, 
+        ],
+        copyMessage: "复制成功",
+        duration: 1000,
+        showInMobile: false,
       },
     ],
   ],
   themeConfig: {
-    logo: "/egg.png",
+    logo: "/egg.png", // 导航栏logo
     lastUpdated: "lastUpdate", // string | boolean
     nav: [
       {
@@ -38,7 +37,7 @@ module.exports = {
       },
       {
         text: "API",
-        link: "/api/array",
+        link: "/api/",
       },
       {
         text: "Store",
@@ -48,12 +47,12 @@ module.exports = {
         ],
       },
       {
-        text: 'Read',
-        link: '/diary/read'
+        text: "Read",
+        link: "/diary/read",
       },
       {
-        text: 'Article',
-        link: '/article/'
+        text: "Article",
+        link: "/article/",
       },
       {
         text: "InterView",
@@ -62,7 +61,7 @@ module.exports = {
       {
         text: "Blogs",
         link: "/blog/",
-      }, 
+      },
     ],
     sidebar: utils.inferSiderbars(),
   },
